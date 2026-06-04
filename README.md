@@ -4,7 +4,7 @@ Full stack banking application built with
 Java Spring Boot and React.js
 
 ## Live Demo
-[Frontend URL] | [Backend Swagger URL]
+https://valuemeters.vercel.app/login
 
 ## Features
 - JWT Authentication & Authorization
