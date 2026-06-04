@@ -1,16 +1,47 @@
-# React + Vite
+# ValueMeters — Online Banking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Full stack banking application built with 
+Java Spring Boot and React.js
 
-Currently, two official plugins are available:
+## Live Demo
+[Frontend URL] | [Backend Swagger URL]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- JWT Authentication & Authorization
+- Account Management (Auto-created on register)
+- Fund Transfer between accounts
+- Expense Tracking (Food/Transport/Health/Education)
+- Budget Management (Daily/Weekly/Monthly)
+- Transaction History
+- Responsive Mobile UI
 
-## React Compiler
+## Tech Stack
+### Backend
+- Java 17, Spring Boot 4.0
+- Spring Security + JWT
+- MySQL + Spring Data JPA
+- Swagger UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend  
+- React.js 18 + Vite
+- Tailwind CSS
+- Axios + React Router
 
-## Expanding the ESLint configuration
+## Setup Instructions
+### Backend
+1. Clone repo
+2. Create MySQL database: banking_db
+3. Update application.yml with your DB credentials
+4. Run: mvn spring-boot:run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+1. Clone repo
+2. Create .env: VITE_API_BASE_URL=http://localhost:8080
+3. Run: npm install
+4. Run: npm run dev
+
+## API Documentation
+Swagger: http://localhost:8080/swagger-ui/index.html
+
+## Screenshots
+[Add screenshots here]
