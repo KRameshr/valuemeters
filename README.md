@@ -43,5 +43,3 @@ https://valuemeters.vercel.app/login
 ## API Documentation
 Swagger: http://localhost:8080/swagger-ui/index.html
 
-## Screenshots
-[Add screenshots here]
